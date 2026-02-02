@@ -5,6 +5,7 @@
     animation-duration: 1000ms;
     animation-iteration-count: infinite;
     transform: rotate(-20deg);
+    display: none;
 }
 
 @keyframes shimmy {
