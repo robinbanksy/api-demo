@@ -7,6 +7,7 @@ async function getPokemon(name) {
     const data = await response.json();
 
     sprite.src = data.sprites.front_default;
+    sprite.style.display = "block"
   
 }
 
